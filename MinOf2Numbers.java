@@ -21,8 +21,9 @@ public class MinOf2Numbers {
 
     }
     public int min(int num1 , int num2){
-        int min = num1 < num2 ? num1 : num2 ;
+        // int min = num1 < num2 ? num1 : num2 ;
 
-        return min;
+        // return min;
+        return num1 < num2 ? num1 : num2 ;
     }
 }
