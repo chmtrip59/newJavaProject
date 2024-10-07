@@ -1,4 +1,4 @@
-public class myForeach {
+public class ForEach {
     public static void main(String[] args) {
         String[] arr = new String[]{
             "Ram" ,"Shyam","Mohan","Sohan","Sita","Geeta"
