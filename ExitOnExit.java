@@ -9,10 +9,10 @@ public class ExitOnExit {
         System.out.println("Welcome to Exit on Exit\n");
 
         while (true) { 
-            
+            //.equals and .equalsIgnoreCase
             System.out.print("Enter your command: ");
             String myLine = in.next();
-            if(myLine.equals("exit")){
+            if(myLine.equalsIgnoreCase("exit")){
                 break;
             }
         }
