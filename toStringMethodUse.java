@@ -25,7 +25,9 @@ public class toStringMethodUse {
     public static void main(String[] args) {
         toStringMethodUse stu = new toStringMethodUse(32, "Green", "Golu", "124");
 
-        System.out.println(stu);
+        // System.out.println(stu);
+        // OR
+        System.out.println(stu.toString());
     }
 
 }
